@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - InvoiceServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>InvoiceServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/uk.ac.leedsbeckett.finance.service.html">uk.ac.leedsbeckett.finance.service</a> &gt; InvoiceServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">23</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.204s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCancelInvoice_withValidId_cancelsInvoice()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateNewInvoice_withValidData_createsInvoice()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindInvoiceThroughPortal_withCorrectReference_findsInvoice()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindInvoiceThroughPortal_withIncorrectReference_throwsException()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindInvoiceThroughPortal_withNullInvoice_throwsException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindInvoiceThroughPortal_withNullReference_throwsException()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindInvoiceThroughPortal_withValidationErrors_showsPortalAgain()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetAllInvoices_returnsExistingInvoices()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceById_withInValidID_throwsException()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceById_withNullID_throwsException()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceById_withValidID_returnsExistingInvoice()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceByReference_withInValidReference_throwsException()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceByReference_withNullReference_throwsException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetInvoiceByReference_withValidReference_returnsExistingInvoice()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPayInvoiceThroughPortal_withCorrectReference_paysInvoice()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPayInvoiceThroughPortal_withIncorrectReference_throwsException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPayInvoiceThroughPortal_withNullInvoice_throwsException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPayInvoiceThroughPortal_withNullReference_throwsException()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPayInvoice_withValidId_paysInvoice()</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProcessPayment_withStatusCancelled_throwsUnsupportedOperationException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProcessPayment_withStatusOutstanding_updatesInvoice()</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProcessPayment_withStatusPaid_throwsUnsupportedOperationException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShowPortal_returnsCorrectPage()</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2025-04-23 14:44:27.131  INFO 4992 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [uk.ac.leedsbeckett.finance.service.InvoiceServiceTest], using SpringBootContextLoader
+2025-04-23 14:44:27.133  INFO 4992 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [uk.ac.leedsbeckett.finance.service.InvoiceServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-04-23 14:44:27.133  INFO 4992 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [uk.ac.leedsbeckett.finance.service.InvoiceServiceTest]: InvoiceServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-04-23 14:44:27.137  INFO 4992 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration uk.ac.leedsbeckett.finance.FinanceApplication for test class uk.ac.leedsbeckett.finance.service.InvoiceServiceTest
+2025-04-23 14:44:27.141  INFO 4992 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2025-04-23 14:44:27.142  INFO 4992 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@49bf6f8c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b525e3a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6fffad6d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@17b65876, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25478603, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c7dbf1f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2efbe938, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@bab7179, org.springframework.test.context.event.EventPublishingTestExecutionListener@12459991, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43114981, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3252daf2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@62225578, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c15d1bc, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1581c6fe, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@31201bf6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2025-04-23 14:44:27.200  INFO 4992 --- [    Test worker] u.a.l.f.service.InvoiceServiceTest       : Starting InvoiceServiceTest using Java 21.0.6 on azharali_laptop with PID 4992 (started by azhar in D:\Assignment\student-service\finance-master)
+2025-04-23 14:44:27.201  INFO 4992 --- [    Test worker] u.a.l.f.service.InvoiceServiceTest       : The following 1 profile is active: &quot;test&quot;
+2025-04-23 14:44:27.423  INFO 4992 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23 14:44:27.433  INFO 4992 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2025-04-23 14:44:27.694  INFO 4992 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23 14:44:27.701  INFO 4992 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-04-23 14:44:27.704  INFO 4992 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-04-23 14:44:27.704  INFO 4992 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table if exists account CASCADE 
+Hibernate: drop table if exists account_invoice_list CASCADE 
+Hibernate: drop table if exists invoice CASCADE 
+Hibernate: create table account (id bigint generated by default as identity, student_id varchar(255), primary key (id))
+Hibernate: create table account_invoice_list (account_id bigint not null, invoice_list_id bigint not null)
+Hibernate: create table invoice (id bigint generated by default as identity, amount double, due_date date, reference varchar(255), status integer, type integer, account_fk bigint, primary key (id))
+Hibernate: alter table account add constraint UK_17io542rmnlpvhcc041w5790h unique (student_id)
+Hibernate: alter table account_invoice_list add constraint UK_bk0qum00dfjw1le2hlvd2qxlj unique (invoice_list_id)
+Hibernate: alter table invoice add constraint UK_rsygcc7plah2g0vy573xuhxmh unique (reference)
+Hibernate: alter table account_invoice_list add constraint FK2md7wefo9fyru31lawts2qw9b foreign key (invoice_list_id) references invoice
+Hibernate: alter table account_invoice_list add constraint FKf6bf69pytpp25ewt2dysq1muu foreign key (account_id) references account
+Hibernate: alter table invoice add constraint FK237udfnwpogi0olckbos14vma foreign key (account_fk) references account
+2025-04-23 14:44:27.775  INFO 4992 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-23 14:44:27.776  INFO 4992 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23 14:44:27.932  WARN 4992 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23 14:44:28.319  INFO 4992 --- [    Test worker] u.a.l.f.service.InvoiceServiceTest       : Started InvoiceServiceTest in 1.169 seconds (JVM running for 28.052)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6.4</a> at Apr 23, 2025, 2:44:29 PM</p>
+</div>
+</div>
+</body>
+</html>
