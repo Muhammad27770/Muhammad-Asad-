@@ -1,0 +1,4 @@
+/mysql
+/db
+**/__pycache__/
+.env
